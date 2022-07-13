@@ -4,6 +4,7 @@
   background-color: black;
   color: green;
   font-size: 16px;
+  font-family: monospace;
 }
 
 body {
@@ -14,15 +15,25 @@ body {
   width: 100%;
 }
 
-#log {
+#log-history {
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 
+#log-history .log-line {
+  display: flex;
+  padding: 0 5px;
+  margin: 0 5px;
+}
+
+#log-history .log-line .log {
+  padding: 0 5px;
+}
+
 #cli-form {
-  flex: 0 0 20px;
+  flex: 0 0 40px;
   display: flex;
   width: 100%;
 }
@@ -31,6 +42,11 @@ body {
   padding: 0 5px;
   margin: 0 5px;
   flex: 0;
+}
+
+#cli-form * {
+  display: flex;
+  align-items: center;
 }
 
 #command-line {
