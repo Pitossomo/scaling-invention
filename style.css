@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  color: green;
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100vh;
+  width: 100%;
+}
+
+#log {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#cli-form {
+  flex: 0 0 20px;
+  display: flex;
+  width: 100%;
+}
+
+#cli-form p {
+  padding: 0 5px;
+  margin: 0 5px;
+  flex: 0;
+}
+
+#command-line {
+  flex: 1 0 0;
+  border: none;
+  outline: none;
+} 
