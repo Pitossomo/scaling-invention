@@ -54,3 +54,8 @@ body {
   border: none;
   outline: none;
 } 
+
+#signature a {
+  text-decoration: none;
+  color: #222;
+}
